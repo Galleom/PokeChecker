@@ -1,8 +1,15 @@
-# React + Vite
+# Poke Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small app for comparing the pokedexes in various games 
 
-Currently, two official plugins are available:
+Link: https://galleom.github.io/PokeChecker/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Usage notes
+
+If you select multiple games within a group, it will show the union of the games.
+
+Eg.: Ruby + Leaf Green will show the sum of the pokedexes of both games
+
+If you select games from different groups, it will show the intersection of the games.
+
+Eg.: Ruby + Gen 2 will show the Gen 2 games that appear in Ruby
