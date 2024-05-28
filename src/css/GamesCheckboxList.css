@@ -1,0 +1,11 @@
+.games-container {
+    width: fit-content;
+}
+
+.game-title{
+    position: absolute;
+    transform: translate(-50%, -48%);
+}
+.game-names{
+    background-color:#11111188;
+}

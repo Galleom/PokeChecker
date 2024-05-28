@@ -1,0 +1,7 @@
+.pre-scrollable {
+    max-height: 340px;
+    height: 200px;
+    overflow-y: scroll;
+    box-shadow: inset;
+    background-color: #8DC884;
+}
