@@ -8,8 +8,14 @@ Link: https://galleom.github.io/PokeChecker/
 
 If you select multiple games within a group, it will show the union of the games.
 
-Eg.: Ruby + Leaf Green will show the sum of the pokedexes of both games
+![Ruby + Sapphire will show the sum of the pokedexes of both games](https://github.com/Galleom/PokeChecker/blob/main/img/image1.png)
+
+Eg.: Ruby + Sapphire will show the sum of the pokedexes of both games
+
+--------------
 
 If you select games from different groups, it will show the intersection of the games.
 
-Eg.: Ruby + Gen 2 will show the Gen 2 games that appear in Ruby
+![Ruby + Gen 1 will show the Gen 1 games that appear in Ruby](https://github.com/Galleom/PokeChecker/blob/main/img/image2.png)
+
+Eg.: Ruby + Gen 1 will show the Gen 1 games that appear in Ruby
