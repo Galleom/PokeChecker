@@ -20,12 +20,6 @@ function App() {
       false,false,false,
       false,false,false])
     const [gameSelectionList, setGameSelection] = useState(baseGameSelectionList)
-      var tooltip = null
-    useEffect(()=>{
-      if (tooltip == null){
-        tooltip = new bootstrap.Tooltip(document.getElementById("test"))
-      }
-    })
   return (
     <div className='background' >
       <div className='col-xs-1 text-center w-100 p-2' >
