@@ -4,6 +4,8 @@ This is a small app for comparing the pokedexes in various games
 
 Link: https://galleom.github.io/PokeChecker/
 
+Disclaimer: This is a fan-made project and in no way affiliated with Nintendo nor any of its partners.
+
 # Usage notes
 
 If you select multiple games within a group, it will show the union of the games.
