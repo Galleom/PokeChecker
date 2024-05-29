@@ -47,8 +47,8 @@ export const baseGameSelectionList =
       {label: 'Megas', maxGen: 7, group: 12, column: PokeColumns.mega, checked: false},
       {label: 'Cross Gen Evolutions', maxGen: 9, group: 12, column: PokeColumns.cros, checked: false},
       // 34
-      {label: 'Colosseum (Shadow)', maxGen: 3, group: 3, column: PokeColumns.cosh, checked: false},
-      {label: 'Colosseum (Others)', maxGen: 3, group: 3, column: PokeColumns.coot, checked: false},
-      {label: 'XD (Shadow)', maxGen: 3, group: 3, column: PokeColumns.xdsh, checked: false},
-      {label: 'XD (Others)', maxGen: 3, group: 3, column: PokeColumns.xdot, checked: false}
+      {label: 'Colosseum (Shadow)', maxGen: 3, group: 3.5, column: PokeColumns.cosh, checked: false},
+      {label: 'Colosseum (Others)', maxGen: 3, group: 3.5, column: PokeColumns.coot, checked: false},
+      {label: 'XD (Shadow)', maxGen: 3, group: 3.5, column: PokeColumns.xdsh, checked: false},
+      {label: 'XD (Others)', maxGen: 3, group: 3.5, column: PokeColumns.xdot, checked: false}
     ]
