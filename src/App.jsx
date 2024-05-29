@@ -29,6 +29,7 @@ function App() {
   return (
     <div className='background' >
       <div className='col-xs-1 text-center w-100 p-2' >
+        <h1>PokeChecker: Check the availability of Pokemon over multiple games</h1>
         <i id="test" className={"pkicon pkicon-ball-love"} data-bs-toggle="tooltip" title="test"/>
         <div id = "pokemon-list container m-2">
           <PokemonList items={pokeItems}/>
