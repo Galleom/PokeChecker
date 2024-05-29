@@ -1,6 +1,8 @@
 # Poke Checker
 
-This is a small app for comparing the pokedexes in various games 
+This is a small app for comparing the pokedexes in various games.
+
+Check the availability of your Pokemon over multiple games!
 
 Link: https://galleom.github.io/PokeChecker/
 
