@@ -49,7 +49,7 @@ function GetPokemonList(gameSelectionList, genenerationList ){
         for (var i = 0; i < genenerationList.length; i++){
             if(genenerationList[i]){
                 minId = FirstGenIds[i+1]
-                maxId = FirstGenIds[(i+2)]-1
+                maxId = FirstGenIds[(i+2)]
                 GetGenerationPokemonList(minId, maxId, smallGameChecklist, gameSelectionList, pokelist)
             }
         }
