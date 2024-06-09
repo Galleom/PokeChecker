@@ -34,7 +34,7 @@ export const baseGameSelectionList =
       {label: 'Crown Tundra', maxGen: 8, group: 8, column: PokeColumns.crtn, checked: false},
       {label: 'Others', maxGen: 8, group: 8, column: PokeColumns.ssot, checked: false},
       // 26
-      {label: 'Legends Arceus', maxGen: 8, group: 8, column: PokeColumns.lgar, checked: false},
+      {label: 'Legends Arceus', maxGen: 8, group: 8.5, column: PokeColumns.lgar, checked: false},
       // 27
       {label: 'Paldea', maxGen: 9, group: 9, column: PokeColumns.scvi, checked: false},
       {label: 'Kitakami', maxGen: 9, group: 9, column: PokeColumns.kita, checked: false},
