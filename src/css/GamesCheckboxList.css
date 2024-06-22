@@ -2,10 +2,46 @@
     width: fit-content;
 }
 
-.game-title{
+.game-names{
+    background-color:#11111188;
+    transition: background-color 0.1s;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+}
+.game-names-red{
+    background-color:#DD111188;
+    transition: background-color 0.1s;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+}
+
+.btn-circle {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+}
+.btn-circle-text-add {
+    transform: translate(0, -30%);
+    font-size: 24px;
+}
+.btn-circle-text-remove {
+    transform: translate(0, -33%);
+    font-size: 24px;
+}
+.title-container {
+    position: relative;
+}
+.btn-game-title{
     position: absolute;
     transform: translate(-50%, -48%);
 }
-.game-names{
-    background-color:#11111188;
+.btn-add-remove {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -48%);
+}
+.btn-color-add {
+    background-color: #56c1eb;
+}
+.btn-color-remove {
+    background-color: #ff6161;
 }
