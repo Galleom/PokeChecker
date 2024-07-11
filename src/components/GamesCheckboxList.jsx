@@ -46,7 +46,7 @@ export default function GamesCheckboxList({gameSelection, games, groupId, setPok
                         <input type="checkbox" className="btn-check" 
                         data-bs-toggle="tooltip" 
                             title={gameSelection[gameId].label} 
-                            id={gameSelection[gameId].label} 
+                            id={gameId} 
                             checked={gameSelection[gameId].checked} 
                             onChange={() => { 
                                 // update state of pokemon list
@@ -54,7 +54,7 @@ export default function GamesCheckboxList({gameSelection, games, groupId, setPok
                                 setPokemonItemList(gameSelection);
                             }}
                         ></input>
-                        <label className="btn btn-outline-light border-0 m-1" htmlFor={gameSelection[gameId].label}>
+                        <label className="btn btn-outline-light border-0 m-1" htmlFor={gameId}>
                             {gameSelection[gameId].label}
                         </label>
                     </React.Fragment>
