@@ -3,8 +3,6 @@ import { FirstGenIds } from './FirstGenIds';
 import pokedata from '../assets/pokedata.json' assert {type: 'json'}
 const lastGenNum = 10;
 
-//"Form","Pokemon","DexId","Ru","Sa","E","FR","LG","D","P","Pl","HG","SS","B","W","B2","W2","X","Y","OR","AS","Su","Mo","US","UM","Sw","Sh"
-
 export default function SetPokemonList( gameSelectionList, genenerationList, setPokeItems){
     setPokeItems(GetPokemonList(gameSelectionList, genenerationList));
 }

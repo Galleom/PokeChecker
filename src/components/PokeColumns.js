@@ -24,7 +24,7 @@ export const PokeColumns = {
     mo: 22, // moon
     us: 23, // ultra sun
     um: 24, // ultra moon
-    swsh: 25, // sword & shield
+    swsh: 25, // sword and shield
     isar: 26, // island of armor
     crtn: 27, // crown tundra
     ssot: 28, // sword and shield; others
@@ -32,12 +32,13 @@ export const PokeColumns = {
     scvi: 30, // scarlet and violet
     kita: 31, // kitakami
     blue: 32, // blueberry
-    lgpe: 33, // let's go pikachu & eevee
+    svot: 33, // scarlet and violet; others
+    lgpe: 34, // let's go pikachu & eevee
     bdsp: 34, // dp remakes
-    mega: 35, // mega evolutions
-    cros: 36, // cross gen evolutions
-    cosh: 37, // colosseum, shadow pokemon
-    coot: 38, // colosseum, others
-    xdsh: 39, // xd, shadow pokemon
-    xdot: 40 // xd, others
+    mega: 36, // mega evolutions
+    cros: 37, // cross gen evolutions
+    cosh: 38, // colosseum, shadow pokemon
+    coot: 39, // colosseum, others
+    xdsh: 40, // xd, shadow pokemon
+    xdot: 41 // xd, others
 }
