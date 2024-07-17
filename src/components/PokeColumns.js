@@ -32,7 +32,7 @@ export const PokeColumns = {
     scvi: 30, // scarlet and violet
     kita: 31, // kitakami
     blue: 32, // blueberry
-    svot: 33, // scarlet and violet; others
+    svot: 33, // scarlet and violet; others // AH
     lgpe: 34, // let's go pikachu & eevee
     bdsp: 34, // dp remakes
     mega: 36, // mega evolutions
