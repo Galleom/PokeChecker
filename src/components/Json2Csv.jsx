@@ -32,9 +32,6 @@ export default function Json2Csv( { items } ){
         link.click();
         document.body.removeChild(link);
     };
-    const test = () => {
-        console.log('Click!!!!');
-    }
 
     var tooltip = null
     useEffect(()=>{
@@ -44,9 +41,9 @@ export default function Json2Csv( { items } ){
     })
     return(
         <div>
-        <i id="repeat-ball" className={"pkicon-ball repeat"} data-bs-toggle="tooltip" title="Export as .csv"
+        <a href="/"><i id="repeat-ball" className={"pkicon-ball repeat"} data-bs-toggle="tooltip" title="Export as .csv"
           onClick={downloadCSV}
-        />
+        /></a>
         </div>
     )
 }
