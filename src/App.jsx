@@ -8,8 +8,10 @@ import {baseGameSelectionList} from './components/GameSelectionList'
 import GamesCheckboxList from './components/GamesCheckboxList'
 import GenerationCheckboxList from './components/GenerationCheckboxList'
 import './assets/pokesprite.scss'
+import './assets/pokeballsprite.scss'
 import './css/App.css'
 import PokeBackground from './components/PokeBackground'
+import Json2Csv from './components/Json2Csv'
 
 function App() {
 
@@ -31,7 +33,7 @@ function App() {
         <h2 className='text-light'>PokeChecker</h2>
         <h5 className='text-light'>Check the availability of your Pokemon over multiple games!</h5>
         <a href="https://github.com/Galleom/PokeChecker">
-          <i id="safari-ball" className={"pkicon pkicon-ball-safari"} data-bs-toggle="tooltip" title="Source"/>
+          <i id="safari-ball" className={"pkicon-ball safari"} data-bs-toggle="tooltip" title="Source"/>
         </a>
         <div id = "pokemon-list container m-2">
           <PokemonList items={pokeItems}/>
@@ -40,6 +42,7 @@ function App() {
           <PokeCounter
             items={pokeItems}/>
         </div>
+        <Json2Csv items={pokeItems} />
         <div className='container m-2 mx-auto d-flex flex-wrap'>
           <GenerationCheckboxList
             generationSelectionList={genenerationList}
@@ -102,7 +105,7 @@ function App() {
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[33, 34]}
+            games={[33, 34, 39]}
             groupId={"Others"}
             setPokemonItemList={setPokemonItemList}/> 
           </div>

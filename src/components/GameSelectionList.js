@@ -51,5 +51,7 @@ export const baseGameSelectionList =
       {label: 'Colosseum (Shadow)', maxGen: 3, group: 3.5, column: PokeColumns.cosh, checked: false, negative: false},
       {label: 'Colosseum (Others)', maxGen: 3, group: 3.5, column: PokeColumns.coot, checked: false, negative: false},
       {label: 'XD (Shadow)', maxGen: 3, group: 3.5, column: PokeColumns.xdsh, checked: false, negative: false},
-      {label: 'XD (Others)', maxGen: 3, group: 3.5, column: PokeColumns.xdot, checked: false, negative: false}
+      {label: 'XD (Others)', maxGen: 3, group: 3.5, column: PokeColumns.xdot, checked: false, negative: false},
+      // 39
+      {label: 'Forms', maxGen: 9, group: 12, column: PokeColumns.frms, checked: false, negative: false}
     ]

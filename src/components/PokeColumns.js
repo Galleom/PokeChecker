@@ -40,5 +40,6 @@ export const PokeColumns = {
     cosh: 38, // colosseum, shadow pokemon
     coot: 39, // colosseum, others
     xdsh: 40, // xd, shadow pokemon
-    xdot: 41 // xd, others
+    xdot: 41, // xd, others
+    frms: 42 // forms // AQ
 }

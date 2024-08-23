@@ -1,0 +1,32 @@
+@mixin crisp-rendering() {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+}
+.pkicon-ball {
+  @include crisp-rendering();
+
+  display: inline-block;
+  background-image: url('/pokeballs.png');
+  background-repeat: no-repeat;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.pkicon-ball.master { width: 18px; height: 18px; background-position: -6px -6px; }
+.pkicon-ball.ultra { width: 18px; height: 18px; background-position: -38px -6px; }
+.pkicon-ball.great { width: 18px; height: 18px; background-position: -70px -6px; }
+.pkicon-ball.regular { width: 18px; height: 18px; background-position: -102px -6px; }
+.pkicon-ball.safari { width: 18px; height: 18px; background-position: -134px -6px; }
+.pkicon-ball.net { width: 18px; height: 18px; background-position: -166px -6px; }
+.pkicon-ball.dive { width: 18px; height: 18px; background-position: -198px -6px; }
+.pkicon-ball.nest { width: 18px; height: 18px; background-position: -230px -6px; }
+.pkicon-ball.repeat { width: 18px; height: 18px; background-position: -262px -6px; }
+.pkicon-ball.timer { width: 18px; height: 18px; background-position: -294px -6px; }
+.pkicon-ball.luxury { width: 18px; height: 18px; background-position: -326px -6px; }
+.pkicon-ball.premier { width: 18px; height: 18px; background-position: -358px -6px; }
+.pkicon-ball.dusk { width: 18px; height: 18px; background-position: -390px -6px; }
+.pkicon-ball.heal { width: 18px; height: 18px; background-position: -422px -6px; }
+.pkicon-ball.quick { width: 18px; height: 18px; background-position: -454px -6px; }
+.pkicon-ball.cherish { width: 18px; height: 18px; background-position: -486px -6px; }
