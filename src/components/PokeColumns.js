@@ -34,7 +34,7 @@ export const PokeColumns = {
     blue: 32, // blueberry
     svot: 33, // scarlet and violet; others // AH
     lgpe: 34, // let's go pikachu & eevee
-    bdsp: 34, // dp remakes
+    bdsp: 35, // dp remakes
     mega: 36, // mega evolutions
     cros: 37, // cross gen evolutions
     cosh: 38, // colosseum, shadow pokemon
