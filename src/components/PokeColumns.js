@@ -24,22 +24,30 @@ export const PokeColumns = {
     mo: 22, // moon
     us: 23, // ultra sun
     um: 24, // ultra moon
-    swsh: 25, // sword and shield
-    isar: 26, // island of armor
-    crtn: 27, // crown tundra
-    ssot: 28, // sword and shield; others
-    lgar: 29, // legends arceus
-    scvi: 30, // scarlet and violet
-    kita: 31, // kitakami
-    blue: 32, // blueberry
-    svot: 33, // scarlet and violet; others // AH
-    lgpe: 34, // let's go pikachu & eevee
-    bdsp: 35, // dp remakes
-    mega: 36, // mega evolutions
-    cros: 37, // cross gen evolutions
-    cosh: 38, // colosseum, shadow pokemon
-    coot: 39, // colosseum, others
-    xdsh: 40, // xd, shadow pokemon
-    xdot: 41, // xd, others
-    frms: 42 // forms // AQ
+    sw: 25, // sword
+    sh: 26, // shield
+    issw: 27, // island of armor Sw
+    issh: 28, // island of armor Sh
+    crsw: 29, // crown tundra Sw
+    crsh: 30, // crown tundra Sh
+    ssot: 31, // sword and shield; others
+    lgar: 32, // legends arceus
+    sc:   33, // scarlet
+    vi:   34, // violet
+    kisc: 35, // kitakami scarlet
+    kivi: 36, // kitakami violet
+    blsc: 37, // blueberry scarlet
+    blvi: 38, // blueberry violet
+    svot: 39, // scarlet and violet; others // AH
+    lgp:  40, // let's go pikachu
+    lge:  41, // let's go eevee
+    brdi: 42, // brillant diamond
+    shpe: 43, // shining pearl
+    mega: 44, // mega evolutions
+    cros: 45, // cross gen evolutions
+    cosh: 46, // colosseum, shadow pokemon
+    coot: 47, // colosseum, others
+    xdsh: 48, // xd, shadow pokemon
+    xdot: 49, // xd, others
+    frms: 50 // forms // AQ
 }

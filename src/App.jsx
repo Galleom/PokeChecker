@@ -55,7 +55,7 @@ function App() {
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[35, 36, 37, 38]}
+            games={[43, 44, 45, 46]}
             groupId={"Game Cube"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
@@ -80,32 +80,32 @@ function App() {
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[22, 23, 24, 25]}
+            games={[22, 23, 24, 25, 26, 27, 28]}
             groupId={"Gen 8"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[31]}
+            games={[37, 38]}
             groupId={"LGPE"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[32]}
+            games={[39, 40]}
             groupId={"BDSP"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[26]}
+            games={[29]}
             groupId={"Legceus"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[27, 28, 29, 30]}
+            games={[30, 31, 32, 33, 34, 35, 36]}
             groupId={"Gen 9"}
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[33, 34, 39]}
+            games={[41, 42, 47]}
             groupId={"Others"}
             setPokemonItemList={setPokemonItemList}/> 
           </div>
