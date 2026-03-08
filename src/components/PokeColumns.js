@@ -49,5 +49,8 @@ export const PokeColumns = {
     coot: 47, // colosseum, others
     xdsh: 48, // xd, shadow pokemon
     xdot: 49, // xd, others
-    frms: 50 // forms // AQ
+    frms: 50, // forms // AQ
+    plza: 51, // PLZA // AZ
+    zadl: 52, // PLZA-DLC // BA
+    mgza: 53 // Megas-ZA // BB
 }

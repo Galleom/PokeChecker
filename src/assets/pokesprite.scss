@@ -1,3 +1,5 @@
+// 32 pokemon per line
+// 37x34 pixels per pokemon
 @mixin crisp-rendering() {
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: -moz-crisp-edges;
@@ -744,6 +746,7 @@
 .pkicon.pkicon-0668 { width: 32px; height: 25px; background-position: -629px -782px; }
 .pkicon.pkicon-0669 { width: 15px; height: 18px; background-position: -666px -782px; }
 .pkicon.pkicon-0670 { width: 19px; height: 22px; background-position: -703px -782px; }
+.pkicon.pkicon-0670.form-eternal { width: 23px; height: 21px; background-position: -1039px -1158px; }
 .pkicon.pkicon-0671 { width: 26px; height: 27px; background-position: -740px -782px; }
 .pkicon.pkicon-0672 { width: 17px; height: 18px; background-position: -777px -782px; }
 .pkicon.pkicon-0673 { width: 23px; height: 22px; background-position: -814px -782px; }

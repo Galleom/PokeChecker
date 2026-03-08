@@ -1,15 +1,21 @@
 .games-container {
     width: fit-content;
+    transition: all 0.5s;
 }
 
-.game-names{
+.game-names-off{
+    background-color:#11111142;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
+}
+.game-names-blue{
     background-color:#11111188;
-    transition: background-color 0.1s;
+    transition: background-color 0.5s ease-in-out;
     -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
 }
 .game-names-red{
     background-color:#DD111188;
-    transition: background-color 0.1s;
+    transition: background-color 0.5s ease-in-out;
     -webkit-transition: background-color 0.5s; /* For Safari 3.1 to 6.0 */
 }
 
@@ -26,22 +32,57 @@
     transform: translate(0, -33%);
     font-size: 24px;
 }
-.title-container {
+.title-container-on {
     position: relative;
+    white-space: nowrap;
+    margin-bottom: -40px;
+    pointer-events: none;
 }
-.btn-game-title{
-    position: absolute;
-    transform: translate(-50%, -48%);
+.title-container-off {
+    position: relative;
+    white-space: nowrap;
+    display: flex; 
+    align-items: center;
+    top: 8px;
+}
+.btn-game-title-on{
+    position: relative;
+    transform: translate(0%, -48%);
+    transition: all 0.5s;
+    pointer-events: all;
+}
+.btn-game-title-off{
+    position: relative;
+    transition: all 0.5s;
+    margin-bottom: 0px;
 }
 .btn-add-remove {
     position: absolute;
     right: 10px;
-    top: 50%;
-    transform: translate(0, -48%);
+    top: -10px;
+    pointer-events: all;
 }
 .btn-color-add {
-    background-color: #56c1eb;
+    background-color: #4fd477;
 }
 .btn-color-remove {
     background-color: #ff6161;
+}
+.btn-toolbar-on {
+    height: 100%;
+    display: block;
+    transition: all 0.5s ease-in-out;
+  flex-shrink: 1;
+}
+.btn-toolbar-off {
+    height: 0px;
+    max-width: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  flex-shrink: 1;
+}
+.btn-element {
+    transition: all 0.5s ease-in-out;
+  flex-shrink: 1;
 }

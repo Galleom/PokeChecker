@@ -48,6 +48,8 @@ function App() {
             generationSelectionList={genenerationList}
             groupId={"gensList"}
             setGenList={setGenList}/> 
+        </div>
+        <div className='container m-2 mx-auto d-flex flex-wrap'>
           <GamesCheckboxList
             gameSelection={gameSelectionList}
             games={[0, 1, 2, 3, 4]}
@@ -105,7 +107,12 @@ function App() {
             setPokemonItemList={setPokemonItemList}/> 
           <GamesCheckboxList
             gameSelection={gameSelectionList}
-            games={[41, 42, 47]}
+            games={[48, 49] }
+            groupId={"Legends Z-A"}
+            setPokemonItemList={setPokemonItemList}/> 
+          <GamesCheckboxList
+            gameSelection={gameSelectionList}
+            games={[41, 50, 42, 47]}
             groupId={"Others"}
             setPokemonItemList={setPokemonItemList}/> 
           </div>

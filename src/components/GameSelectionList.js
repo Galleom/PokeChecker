@@ -61,5 +61,9 @@ export const baseGameSelectionList =
       {label: 'XD (Shadow)', maxGen: 3, group: 3.5, column: PokeColumns.xdsh, checked: false, negative: false},
       {label: 'XD (Others)', maxGen: 3, group: 3.5, column: PokeColumns.xdot, checked: false, negative: false},
       // 47
-      {label: 'Forms', maxGen: 9, group: 12, column: PokeColumns.frms, checked: false, negative: false}
+      {label: 'Forms', maxGen: 9, group: 12, column: PokeColumns.frms, checked: false, negative: false},
+      // 48
+      {label: 'Legends ZA', maxGen: 9, group: 13, column: PokeColumns.plza, checked: false, negative: false},
+      {label: 'DLC', maxGen: 9, group: 13, column: PokeColumns.zadl, checked: false, negative: false},
+      {label: 'ZA Megas', maxGen: 9, group: 12, column: PokeColumns.mgza, checked: false, negative: false}
     ]
